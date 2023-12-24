@@ -13,6 +13,20 @@ nav{
     background-color: #1A1A1A;
     width: 100%;
 }
+
+.progressbar{
+    position: absolute;
+    height: 7px;
+    background: #e0e0e0;
+    width: 100%;
+    
+}
+.progressbar .indicator{
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    background:#000000;
+}
 #label{
     position: absolute;
     top: 0.4rem;
